@@ -1,7 +1,7 @@
 # Google Search
-Project 0 in CS50-Web Course
+Project 0 in CS50's Web Programming with Python and JavaScript
 
-To view my demonstrate of the project [Click Here](https://www.youtube.com/watch?v=yL4PkBnp8fA).
+To view my demonstration of the project [Click Here](https://www.youtube.com/watch?v=yL4PkBnp8fA).
 
 # Specification
 Your website must meet the following requirements:
