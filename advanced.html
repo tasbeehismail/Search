@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="css/style.scss">
+        <link rel="stylesheet" href="project/css/bootstrap.css">
+        <link rel="icon" href="google-icon.png">
+    </head>
+    <body>
+        <div class="headerlinks">
+            <a class="link" href="index.html">Google Search</a>
+        </div>
+
+        <div id="advlabel"> 
+            <label>Advanced Search</label>    
+        </div>
+
+        <hr />
+        <div class="container w-100 mt-2 ">
+            <form action="https://www.google.com/search">
+                <div class="form-group">
+                    <label id="Findlabel">Find pages with...</label>
+                </div>
+            
+                <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label">all these words:</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="colFormLabel" name="as_q">
+                    </div>
+                    <div class="col-sm-3">
+                        <small class="form-text text-muted">Type the important words</small>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label">this exact word or phrase:</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="colFormLabel" name="as_epq">
+                    </div>
+                    <div class="col-sm-3">
+                        <small class="form-text text-muted">Put exact words in quotes</small>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label">any of these words:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="colFormLabel" name="as_oq">
+                    </div>
+                    <div class="col-sm-3">  
+                        <small class="form-text text-muted">Type OR between all the words you want</small>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label">none of these words</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="colFormLabel" name="as_eq">
+                    </div>
+                    <div class="col-sm-3">
+                        <small class="form-text text-muted">Put a minus sign just before words that you don't want</small>
+                    </div>
+                </div>
+
+                <button  type="submit" class="btn btn-primary" value="Advanced Search">Advanced Search</button>
+
+            </form>
+        </div>
+    </body>
+</html> 

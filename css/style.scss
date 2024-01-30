@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+hr {
+    width:100%;
+    text-align:right; 
+    position: relative;
+    bottom: -80px;
+   padding: 3%;
+}
+
+.headerlinks {
+    position:absolute;
+    right: 20px;
+    top: 20px;
+    
+    .link {
+        font-size: 20px;
+        color: black;
+        text-decoration: none; 
+        margin: 5px;
+    }
+}
+
+.GoogleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+    width: 400px; 
+}
+
+.searchtext {
+    margin: auto;
+    padding: 15px;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+    width: 700px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.searchbutton {
+    display: inline;
+    border: 0;
+    background-color: rgba(232, 232, 232, 0.991);
+    border-radius: 5px;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+    margin: 10px; 
+    height: 50px;
+}
+
+.form-control{
+    margin: 10px;
+}
+
+#imgspan {
+    color: blue;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+    bottom: 130px;
+}
+
+#advlabel {
+    color: rgb(166, 48, 48);
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    font-size: 25px;
+
+}
+
+#Findlabel {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
